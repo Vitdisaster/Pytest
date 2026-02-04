@@ -1,15 +1,29 @@
-# {'userId': 1, 'id': 1,
-# 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit',
-# 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita
-# et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
-POST_SCHEMA = {
-    "type": "object", # Пока один объект, потом сделать array
-    "properties": {  # Когда список объектов, добавить items: { type: "object" ...} - для каждого item обработка
-        "userId": {"type": "integer"},
-        "id": {"type": "integer"},
-        "title": {"type": "string"},
-        "body": {"type": "string"},
+# TODO: Посмотреть на pydentic, выглядит мощнее
 
+
+POST_SCHEMA = {
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "userId": {
+                "type": "integer",
+                "minimum": 1
+            },
+            "id": {
+                "type": "integer",
+                "minimum": 1
+            },
+            "title": {
+                "type": "string",
+                "minlength": 1
+            },
+            "body": {
+                "type": "string",
+                "minlength": 1
+            },
+        }
     },
     "required": ["userId", "id", "title", "body"],
+    "additionalProperties": False
 }

@@ -1,4 +1,5 @@
 from jsonschema import validate
+from pprint import pprint
 
 from src.enums.global_enums import GlobalErrorMessages
 
@@ -8,7 +9,10 @@ class Response:
     def __init__(self, response):
 
         self.response = response
+
         self.response_json = response.json()
+        # Вывожу в консоль читабельный ответ запроса list[dict]
+        pprint(self.response_json)
         self.response_status = response.status_code
 
     def validate(self, schema):
