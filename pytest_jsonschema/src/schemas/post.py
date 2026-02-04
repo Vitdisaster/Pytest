@@ -1,5 +1,4 @@
-# TODO: Посмотреть на pydentic, выглядит мощнее
-
+"""Схема для проверки ответа POST в формате json"""
 
 POST_SCHEMA = {
     "type": "array",

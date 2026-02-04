@@ -1,0 +1,89 @@
+[
+  {
+    "meta": {
+      "pagination": {
+        "total": 2929,
+        "pages": 293,
+        "page": 1,
+        "limit": 10,
+        "links": {
+          "previous": None,
+          "current": "https://gorest.co.in/public/v1/users?page=1",
+          "next": "https://gorest.co.in/public/v1/users?page=2"
+        }
+      }
+    },
+    "data": [
+      {
+        "id": 8358029,
+        "name": "Amb. Gopaal Nambeesan",
+        "email": "gopaal_amb_nambeesan@thompson.test",
+        "gender": "male",
+        "status": "inactive"
+      },
+      {
+        "id": 8358025,
+        "name": "Rakesh Patel V",
+        "email": "v_rakesh_patel@jacobson.test",
+        "gender": "female",
+        "status": "active"
+      },
+      {
+        "id": 8358024,
+        "name": "Anila Agarwal DDS",
+        "email": "agarwal_anila_dds@goodwin.test",
+        "gender": "female",
+        "status": "inactive"
+      },
+      {
+        "id": 8358023,
+        "name": "Jitender Pothuvaal",
+        "email": "jitender_pothuvaal@grimes.test",
+        "gender": "female",
+        "status": "active"
+      },
+      {
+        "id": 8358022,
+        "name": "Shankar Pothuvaal",
+        "email": "pothuvaal_shankar@runolfsdottir-smitham.test",
+        "gender": "male",
+        "status": "inactive"
+      },
+      {
+        "id": 8358020,
+        "name": "Deepankar Tandon",
+        "email": "deepankar_tandon@sauer-harvey.example",
+        "gender": "male",
+        "status": "inactive"
+      },
+      {
+        "id": 8358019,
+        "name": "Kamalesh Guneta",
+        "email": "kamalesh_guneta@ohara.example",
+        "gender": "female",
+        "status": "active"
+      },
+      {
+        "id": 8358018,
+        "name": "Vidhya Iyengar",
+        "email": "iyengar_vidhya@ullrich.test",
+        "gender": "male",
+        "status": "active"
+      },
+      {
+        "id": 8358017,
+        "name": "Hiranmaya Shah",
+        "email": "hiranmaya_shah@buckridge-franecki.test",
+        "gender": "male",
+        "status": "active"
+      },
+      {
+        "id": 8358016,
+        "name": "Devi Gandhi",
+        "email": "gandhi_devi@armstrong.test",
+        "gender": "male",
+        "status": "inactive"
+      }
+    ]
+  }
+]
