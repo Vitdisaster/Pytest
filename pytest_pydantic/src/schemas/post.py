@@ -12,7 +12,7 @@ class MetaInfo(BaseModel):
 class User(BaseModel):
     """Данные о пользователе в ответе"""
 
-    id: int = Field(..., le=8008022)
+    id: int = Field(..., le=9508022)
     name: str
     email: str
     gender: UserGender = Field(..., description="Пол пользователя")
