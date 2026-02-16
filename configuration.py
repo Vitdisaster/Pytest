@@ -8,3 +8,4 @@ SECOND_URL = 'https://gorest.co.in/public/v1/users'
 #Генерация отчета
 #  allure serve allure_report_pydantic
 # allure serve allure_report_jsonschem
+# allure serve allure_report_calc

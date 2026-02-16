@@ -1,7 +1,7 @@
-from pydantic import BaseModel, Field, EmailStr
+from pydantic import BaseModel, Field
 
-from pytest_pydantic.src.schemas.schematom.pagination_schematom import PaginationInfo
-from pytest_pydantic.src.schemas.schematom.user_info_schematom import UserGender, UserStatus
+from aqa_portfolio.pytest_pydantic.src.schemas.schematom.pagination_schematom import PaginationInfo
+from aqa_portfolio.pytest_pydantic.src.schemas.schematom.user_info_schematom import UserGender, UserStatus
 
 class MetaInfo(BaseModel):
     """Мета-информация ответа запроса"""
