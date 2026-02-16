@@ -13,5 +13,7 @@ cython_debug/
 .idea
 
 
-allure_report_pydantic
-allure_report_jsonschema
+
+allure_report_calc/
+allure_report_jsonschema/
+allure_report_pudantic/
