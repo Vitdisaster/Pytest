@@ -1,0 +1,38 @@
+Мне нужно создать проект
+
+Цель: Создать каркас проекта и освоить главный инструмент.
+
+Темы:
+
+Структура тестового проекта.
+
+pytest: запуск тестов, ассерты, маркировка.
+
+Фикстуры (@pytest.fixture).
+
+Параметризация (@pytest.mark.parametrize).
+
+Плагины (pytest-html, pytest-xdist).
+
+Конфигурация (pytest.ini, conftest.py).
+
+
+
+И проработать
+
+2. pytest: основы
+Основные ассерты:
+
+python
+assert x == y, "Сообщение при падении"
+assert element.is_displayed()
+assert "text" in page_source
+assert response.status_code == 200
+Маркировка тестов:
+
+python
+@pytest.mark.smoke
+@pytest.mark.regression
+@pytest.mark.slow
+@pytest.mark.skip(reason="Баг в JIRA-123")
+@pytest.mark.xfail(reason="Известная проблема")
